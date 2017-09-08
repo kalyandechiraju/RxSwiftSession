@@ -9,8 +9,8 @@
 import UIKit
 
 struct SurveyResult {
-    var nickname: String
-    var optionOne: Int
-    var optionTwo: Int
-    var optionThree: Int
+    var username: String
+    var answerOne: String
+    var answerTwo: String
+    var answerThree: String
 }

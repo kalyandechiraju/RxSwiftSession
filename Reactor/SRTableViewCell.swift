@@ -13,6 +13,7 @@ class SRTableViewCell: UITableViewCell {
     static let Identifier = "SRCell"
 
     @IBOutlet weak var nickNameLabel: UILabel!
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,7 +21,8 @@ class SRTableViewCell: UITableViewCell {
     }
 
     func configureCell(result: SurveyResult) {
-        nickNameLabel.text = result.nickname
+        nickNameLabel.text = result.username
+        resultLabel.text = "1.\(result.answerOne) 2.\(result.answerTwo) 3.\(result.answerThree)"
     }
 
 }
