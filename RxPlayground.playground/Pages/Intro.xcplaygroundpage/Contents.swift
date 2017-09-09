@@ -31,7 +31,7 @@ Sort, filter, map, insert, split, remove, replace...
  > Unless there is atleast one Subscriber, the Observable won't emit any data.
  
  ## Why Reactive Programming?
- > The ReactiveX Observable model allows you to treat streams of asynchronous events with the same sort of simple, composable operations that you use for collections of data items like arrays. It frees you from tangled webs of callbacks, and thereby makes your code more readable and less prone to bugs.
+ The ReactiveX Observable model allows you to treat streams of asynchronous events with the same sort of simple, composable operations that you use for collections of data items like arrays. It frees you from tangled webs of callbacks, and thereby makes your code more readable and less prone to bugs.
 */
 
 //: [Next](@next)

@@ -55,7 +55,6 @@ class QuestionsViewController: UIViewController {
         if segue.identifier == "ChartsSegue" {
             if let destination = segue.destination as? ChartsViewController {
                 if let data = sender as? Int {
-                    print("performing segue: \(data)")
                     destination.questionNumber = data
                 }
             }

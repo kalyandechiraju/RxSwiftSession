@@ -45,6 +45,7 @@ class ChartsViewController: UIViewController {
     func loadDataFromFirebase() {
         let ref = FIRDatabase.database().reference()
         ref.child("submissions").observe(FIRDataEventType.value, with: { (snapshot) in
+            self.options = [String: Int]()
             for children in snapshot.children {
                 let snapshotData = children as! FIRDataSnapshot
                 let data = snapshotData.value as? [String : AnyObject] ?? [:]
