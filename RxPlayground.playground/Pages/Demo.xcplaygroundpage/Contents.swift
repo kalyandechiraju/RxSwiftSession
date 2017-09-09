@@ -18,9 +18,6 @@ example("Intro") {
     // Thread safe bag that disposes added disposables on deinit.
     let disposeBag = DisposeBag()
     
-    //    ObservableType
-    //    Observable
-    //    BehaviorSubject
     var numbers = Variable(700)
     
     numbers.asObservable()
@@ -47,10 +44,10 @@ example("Intro") {
     //.disposed(by: disposeBag)
     
     
-    //    delay(2.0, closure: {
-    //        numbers.value = 300
-    //        numbers.value = 500
-    //    })
+//        delay(2.0, closure: {
+//            numbers.value = 300
+//            numbers.value = 500
+//        })
 }
 
 example("merge") {
@@ -77,29 +74,29 @@ example("merge") {
     
     subject2.value = "③"
 }
-// Calculator buttons example
-
-example("combineLatest") {
-    let disposeBag = DisposeBag()
-    
-    let stringSubject = Variable("ABC")
-    let intSubject = Variable(123)
-    
-    Observable.combineLatest(stringSubject.asObservable(), intSubject.asObservable()) { stringElement, intElement in
-        "\(stringElement) \(intElement)"
-        }
-        .subscribe(onNext: { print($0) })
-        .disposed(by: disposeBag)
-    
-    stringSubject.value = "🅰️"
-    
-    stringSubject.value = "🅱️"
-    intSubject.value = 1
-    
-    intSubject.value = 2
-    
-    stringSubject.value = "🆎"
-}
+//// Calculator buttons example
+//
+//example("combineLatest") {
+//    let disposeBag = DisposeBag()
+//    
+//    let stringSubject = Variable("ABC")
+//    let intSubject = Variable(123)
+//    
+//    Observable.combineLatest(stringSubject.asObservable(), intSubject.asObservable()) { stringElement, intElement in
+//        "\(stringElement) \(intElement)"
+//        }
+//        .subscribe(onNext: { print($0) })
+//        .disposed(by: disposeBag)
+//    
+//    stringSubject.value = "🅰️"
+//    
+//    stringSubject.value = "🅱️"
+//    intSubject.value = 1
+//    
+//    intSubject.value = 2
+//    
+//    stringSubject.value = "🆎"
+//}
 // Login example
 
 

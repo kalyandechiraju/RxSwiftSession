@@ -6,7 +6,17 @@ A stream is a sequence of ongoing events ordered in time.
 
 ![](stream2.png "Stream")
 
-In iOS: Text Input, Network Requests, Button clicks and many more.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ In iOS: Text Input, Network Requests, Button clicks and many more.
  
  Example: the values emitted by **UISwitch** is a stream of Boolean values.
 

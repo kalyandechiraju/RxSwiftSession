@@ -4,6 +4,7 @@
  ## References
  
  - https://github.com/ReactiveX/RxSwift
+ - Schedulers in RxSwift
  - http://reactivex.io/
  - http://rxmarbles.com/
  - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754

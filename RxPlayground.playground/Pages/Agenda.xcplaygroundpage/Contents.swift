@@ -1,13 +1,15 @@
 /*:
- # Agenda 🎤
+ # An introduction to Reactive Programming with RxSwift
+ ### Agenda 🎤
  - Who Am I? 🤠
  - What is Reactive Programming? 🤔
  - How to adopt Reactive Programming in iOS? 🙄
  
  
- But before we proceed, let me take a quick Survey
+ But before we proceed, let me know about you.
  
- -- link to survey --
+ - http://bit.ly/rxswiftblr
+ 
  */
 
 //: [Next](@next)
